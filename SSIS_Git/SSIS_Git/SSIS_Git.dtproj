@@ -26,11 +26,12 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">HARSHITHARUN</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPc6BHHv+PEyRr9cqGSg9+wAAAAACAAAAAAAQZgAAAAEAACAAAAAQ1AdvfhaY8YLDhFds1fhqLvoFs0e4SQrN0dFG5NsP0QAAAAAOgAAAAAIAACAAAADwZ/Mb56/Y7C5Qfk3irhCfwFcaBN0HBVf/fgDthpOkXZAAAABGhCvS0Y32+7gs3D5nD60EorfGhwFlGYFdszyWimN5ge/ZaZZB0CMBUNlzxe9n0YAFmoFtbcNMeXJipkD4o/M51Pue2AxCuo5zKkawfYfkBRVfywYYxZE83MykACunUny2jzoF6exJsxGLiAOJkWUcLkk38S0jgE2Uec4u/fNf0wyh6nRVlL1+NxkZ061WiQtAAAAAEq4eIRbABwJYseTVGQAyXDh2U3uFIHJsyyOfOUQZTIkzuMnE+S8CEaibrfsJHEbSz6dq05AgzzBywBLqYu/Qfg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPc6BHHv+PEyRr9cqGSg9+wAAAAACAAAAAAAQZgAAAAEAACAAAABPDsaLajLjOT2YzS2RzZos7dn/qXzTqUaLhd345RsiUQAAAAAOgAAAAAIAACAAAACkrn/CLJLpvgbebzneX6B++vR3s4BaFnPDoQBFau6a8pAAAADkATv/fNWW1h/nGu+4DNeWT+jiRlu0yeBEjQOZEsPqh1ZCkAYqDjoccBhxJJugsYzwaVVxEacFzA989sGfxdQ66eKVYSsFueaRS50V2nhthf2LS5YsJUdrxIWLM5BWpvmLnMyN0I01nh6A2W7Bd43BbcDg5yNJyo2HQkEJFR728Avqx+u34anslTuzzWpLVxdAAAAA3ZsAZtcTHTDnD1Zu9z8vKEsXfPEG8vXSSwN9d73/ssWhyrH/KUUT4v082a6GXwCYTcyV44E7uYw7/HOnYXFDYA==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
           <SSIS:Package SSIS:Name="DFT_Test.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="DFT_Test2.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
@@ -46,6 +47,23 @@
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionGUID">{9E121A90-70AA-4EAC-8E08-E576320710D0}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="DFT_Test2.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{D4A10428-F183-4485-A1B4-725BDDD4C043}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">DFT_Test2</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">2</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{48F05220-F063-4334-8AC9-0A86B04607FB}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
